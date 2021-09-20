@@ -1,0 +1,580 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.firebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+13-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:5:5-75
+13-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:5:22-72
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.93.0] /Users/macossierra/.gradle/caches/transforms-3/333f91ae87ad47b52496ebb067eda4d1/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.93.0] /Users/macossierra/.gradle/caches/transforms-3/333f91ae87ad47b52496ebb067eda4d1/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+17-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+18-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+19
+20    <queries>
+20-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/4c4e0c16beb5ee13fe905d40a994cf70/transformed/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:14:5-20:15
+21        <intent>
+21-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/4c4e0c16beb5ee13fe905d40a994cf70/transformed/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:15:9-19:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+22-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+23
+24            <data android:scheme="https" />
+24-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+24-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+25        </intent>
+26    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:10:5-28:19
+31        android:name="com.firebase.MainApplication"
+31-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:11:7-38
+32        android:allowBackup="false"
+32-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:15:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] /Users/macossierra/.gradle/caches/transforms-3/1a58405c03987391c594e59188633e84/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:13:7-41
+36        android:label="@string/app_name"
+36-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:12:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:14:7-52
+38        android:theme="@style/AppTheme"
+38-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:16:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/debug/AndroidManifest.xml:8:9-44
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/debug/AndroidManifest.xml:11:9-86
+40-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/debug/AndroidManifest.xml:11:19-83
+41        <activity
+41-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:17:7-27:18
+42            android:name="com.firebase.MainActivity"
+42-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:18:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:20:9-86
+44            android:label="@string/app_name"
+44-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:19:9-41
+45            android:launchMode="singleTask"
+45-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:21:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:22:9-51
+47            <intent-filter>
+47-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:23:9-26:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:24:13-65
+48-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:24:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:25:13-73
+50-->/Users/macossierra/Documents/ReactNative/firebase/android/app/src/main/AndroidManifest.xml:25:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+55            android:name="firebase_analytics_collection_enabled"
+55-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+56            android:value="true" />
+56-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+57        <meta-data
+57-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+58            android:name="firebase_analytics_collection_deactivated"
+58-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+59            android:value="false" />
+59-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+60        <meta-data
+60-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+61            android:name="google_analytics_adid_collection_enabled"
+61-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+62            android:value="true" />
+62-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+63        <meta-data
+63-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+64            android:name="google_analytics_ssaid_collection_enabled"
+64-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+65            android:value="true" />
+65-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+66        <meta-data
+66-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+67            android:name="google_analytics_default_allow_ad_personalization_signals"
+67-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+68            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+68-->[:react-native-firebase_analytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+69        <meta-data
+69-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+70            android:name="firebase_crashlytics_collection_enabled"
+70-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+71            android:value="false" />
+71-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+72
+73        <provider
+73-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+74            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+74-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+75            android:authorities="com.firebase.reactnativefirebasecrashlyticsinitprovider"
+75-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+76            android:exported="false"
+76-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+77            android:initOrder="98" />
+77-->[:react-native-firebase_crashlytics] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+78
+79        <meta-data
+79-->[:react-native-firebase_in-app-messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/in-app-messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+80            android:name="in_app_messaging_auto_collection_enabled"
+80-->[:react-native-firebase_in-app-messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/in-app-messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-68
+81            android:value="true" />
+81-->[:react-native-firebase_in-app-messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/in-app-messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+82
+83        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+83-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+83-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+84        <service
+84-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+85            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+85-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+86            android:exported="false" >
+86-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+87            <intent-filter>
+87-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+88                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+88-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+88-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+89            </intent-filter>
+90        </service>
+91
+92        <receiver
+92-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+93            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+93-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+94            android:exported="true"
+94-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+95            android:permission="com.google.android.c2dm.permission.SEND" >
+95-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+96            <intent-filter>
+96-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+97                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+97-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+97-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+98            </intent-filter>
+99        </receiver>
+100
+101        <meta-data
+101-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+102            android:name="firebase_messaging_auto_init_enabled"
+102-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+103            android:value="true" />
+103-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+104        <meta-data
+104-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+105            android:name="com.google.firebase.messaging.default_notification_channel_id"
+105-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+106            android:value="" />
+106-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+107        <meta-data
+107-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+108            android:name="com.google.firebase.messaging.default_notification_color"
+108-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+109            android:resource="@color/white" />
+109-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+110        <meta-data
+110-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+111            android:name="app_data_collection_default_enabled"
+111-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+112            android:value="true" />
+112-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+113
+114        <service
+114-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+118            <meta-data
+118-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+119                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+119-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+122                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+122-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/4c4e0c16beb5ee13fe905d40a994cf70/transformed/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:26:13-28:85
+125                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+125-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/4c4e0c16beb5ee13fe905d40a994cf70/transformed/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:27:17-144
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/4c4e0c16beb5ee13fe905d40a994cf70/transformed/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:28:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-firestore:23.0.3] /Users/macossierra/.gradle/caches/transforms-3/e997b6facd0a0ea150ff392633dc3c8e/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+128                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+128-->[com.google.firebase:firebase-firestore:23.0.3] /Users/macossierra/.gradle/caches/transforms-3/e997b6facd0a0ea150ff392633dc3c8e/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-firestore:23.0.3] /Users/macossierra/.gradle/caches/transforms-3/e997b6facd0a0ea150ff392633dc3c8e/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/27aaa751c933cafe2bb5accee3bac2a6/transformed/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:17:13-19:85
+131                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+131-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/27aaa751c933cafe2bb5accee3bac2a6/transformed/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:18:17-129
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/27aaa751c933cafe2bb5accee3bac2a6/transformed/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:19:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+134                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+134-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-crashlytics-ndk:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ff68370d35f4ebc855a14a135f298dd1/transformed/jetified-firebase-crashlytics-ndk-18.2.1/AndroidManifest.xml:35:13-37:85
+137                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+137-->[com.google.firebase:firebase-crashlytics-ndk:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ff68370d35f4ebc855a14a135f298dd1/transformed/jetified-firebase-crashlytics-ndk-18.2.1/AndroidManifest.xml:36:17-122
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-crashlytics-ndk:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ff68370d35f4ebc855a14a135f298dd1/transformed/jetified-firebase-crashlytics-ndk-18.2.1/AndroidManifest.xml:37:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ad3466f539eb14a63e8fa75615bea448/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:18:13-20:85
+140                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+140-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ad3466f539eb14a63e8fa75615bea448/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:19:17-115
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/macossierra/.gradle/caches/transforms-3/ad3466f539eb14a63e8fa75615bea448/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:20:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macossierra/.gradle/caches/transforms-3/8ee596d16c1cfb1a782a127dee63414d/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+143                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+143-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macossierra/.gradle/caches/transforms-3/8ee596d16c1cfb1a782a127dee63414d/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macossierra/.gradle/caches/transforms-3/8ee596d16c1cfb1a782a127dee63414d/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-functions:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/799796a2c1efeaa9e7de4847bf368f1d/transformed/jetified-firebase-functions-20.0.0/AndroidManifest.xml:18:13-20:85
+146                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+146-->[com.google.firebase:firebase-functions:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/799796a2c1efeaa9e7de4847bf368f1d/transformed/jetified-firebase-functions-20.0.0/AndroidManifest.xml:19:17-111
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-functions:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/799796a2c1efeaa9e7de4847bf368f1d/transformed/jetified-firebase-functions-20.0.0/AndroidManifest.xml:20:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-storage:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/9cec30a1d3722af2018701ae31e8c410/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+149                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+149-->[com.google.firebase:firebase-storage:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/9cec30a1d3722af2018701ae31e8c410/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-storage:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/9cec30a1d3722af2018701ae31e8c410/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-database:20.0.1] /Users/macossierra/.gradle/caches/transforms-3/1341ae0919aa7f6eb44a7497890d4c9e/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+152                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+152-->[com.google.firebase:firebase-database:20.0.1] /Users/macossierra/.gradle/caches/transforms-3/1341ae0919aa7f6eb44a7497890d4c9e/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-database:20.0.1] /Users/macossierra/.gradle/caches/transforms-3/1341ae0919aa7f6eb44a7497890d4c9e/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-iid:21.1.0] /Users/macossierra/.gradle/caches/transforms-3/c67b8bc9fc3d77e6fd0f31b687254bfe/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+155                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+155-->[com.google.firebase:firebase-iid:21.1.0] /Users/macossierra/.gradle/caches/transforms-3/c67b8bc9fc3d77e6fd0f31b687254bfe/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-iid:21.1.0] /Users/macossierra/.gradle/caches/transforms-3/c67b8bc9fc3d77e6fd0f31b687254bfe/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+157            <meta-data
+157-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/cc41470e0d68aeec56dcc0fa81af85e7/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+158                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+158-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/cc41470e0d68aeec56dcc0fa81af85e7/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/cc41470e0d68aeec56dcc0fa81af85e7/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-installations:17.0.0] /Users/macossierra/.gradle/caches/transforms-3/f0ec881fa15bd0b7d9f22218b404d4ec/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+161                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+161-->[com.google.firebase:firebase-installations:17.0.0] /Users/macossierra/.gradle/caches/transforms-3/f0ec881fa15bd0b7d9f22218b404d4ec/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-installations:17.0.0] /Users/macossierra/.gradle/caches/transforms-3/f0ec881fa15bd0b7d9f22218b404d4ec/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-abt:21.0.0] /Users/macossierra/.gradle/caches/transforms-3/278b02ff059afdb5c349328aae13eb4e/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
+164                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+164-->[com.google.firebase:firebase-abt:21.0.0] /Users/macossierra/.gradle/caches/transforms-3/278b02ff059afdb5c349328aae13eb4e/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-abt:21.0.0] /Users/macossierra/.gradle/caches/transforms-3/278b02ff059afdb5c349328aae13eb4e/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
+166        </service>
+167
+168        <provider
+168-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+169            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+169-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+170            android:authorities="com.firebase.reactnativefirebaseappinitprovider"
+170-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+171            android:exported="false"
+171-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+172            android:initOrder="99" />
+172-->[:react-native-firebase_app] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+173
+174        <activity
+174-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+181-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+183-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+184-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+185
+186                <data
+186-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+187                    android:host="firebase.auth"
+187-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+188                    android:path="/"
+188-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+189                    android:scheme="genericidp" />
+189-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+199-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+201-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+202-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+203
+204                <data
+204-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+205                    android:host="firebase.auth"
+205-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+206                    android:path="/"
+206-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+207                    android:scheme="recaptcha" />
+207-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+208            </intent-filter>
+209        </activity>
+210
+211        <service
+211-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+212            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+212-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+213            android:enabled="true"
+213-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+214            android:exported="false" >
+214-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+215            <intent-filter>
+215-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+216                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+216-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+216-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+217
+218                <category android:name="android.intent.category.DEFAULT" />
+218-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+218-->[com.google.firebase:firebase-auth:21.0.1] /Users/macossierra/.gradle/caches/transforms-3/e221efd4e5c4e4d0abb69a3d742857ae/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+219            </intent-filter>
+220        </service>
+221
+222        <receiver
+222-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+223            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+223-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+224            android:exported="true"
+224-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+225            android:permission="com.google.android.c2dm.permission.SEND" >
+225-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+226            <intent-filter>
+226-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+227                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+227-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+227-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+228            </intent-filter>
+229        </receiver>
+230        <!--
+231             FirebaseMessagingService performs security checks at runtime,
+232             but set to not exported to explicitly avoid allowing another app to call it.
+233        -->
+234        <service
+234-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+235            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+235-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+236            android:directBootAware="true"
+236-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+237            android:exported="false" >
+237-->[com.google.firebase:firebase-messaging:22.0.0] /Users/macossierra/.gradle/caches/transforms-3/c7abfe58068b4d0f27975a6f52edfb08/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+238            <intent-filter android:priority="-500" >
+238-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+239                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+239-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+239-->[:react-native-firebase_messaging] /Users/macossierra/Documents/ReactNative/firebase/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+240            </intent-filter>
+241        </service>
+242        <service
+242-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+243            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+243-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+244            android:exported="false" >
+244-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+245            <meta-data
+245-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+246                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+246-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+247                android:value="cct" />
+247-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/dab7b07f70b812311c752343c2ecd4ec/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+248        </service>
+249        <service
+249-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+250-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+251            android:exported="false"
+251-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+252            android:permission="android.permission.BIND_JOB_SERVICE" >
+252-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+253        </service>
+254
+255        <receiver
+255-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+256            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+256-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+257            android:exported="false" />
+257-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macossierra/.gradle/caches/transforms-3/9d37716fc4bf53775051208139375e3f/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+258
+259        <provider
+259-->[com.squareup.picasso:picasso:2.71828] /Users/macossierra/.gradle/caches/transforms-3/2404d6242aa37f7abf5384cedc93c228/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+260            android:name="com.squareup.picasso.PicassoProvider"
+260-->[com.squareup.picasso:picasso:2.71828] /Users/macossierra/.gradle/caches/transforms-3/2404d6242aa37f7abf5384cedc93c228/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+261            android:authorities="com.firebase.com.squareup.picasso"
+261-->[com.squareup.picasso:picasso:2.71828] /Users/macossierra/.gradle/caches/transforms-3/2404d6242aa37f7abf5384cedc93c228/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+262            android:exported="false" />
+262-->[com.squareup.picasso:picasso:2.71828] /Users/macossierra/.gradle/caches/transforms-3/2404d6242aa37f7abf5384cedc93c228/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+263
+264        <activity
+264-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+265            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+265-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+266            android:excludeFromRecents="true"
+266-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+268            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+268-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+269        <!--
+270            Service handling Google Sign-In user revocation. For apps that do not integrate with
+271            Google Sign-In, this service will never be started.
+272        -->
+273        <service
+273-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+274            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+274-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+275            android:exported="true"
+275-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+276            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+276-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+277            android:visibleToInstantApps="true" />
+277-->[com.google.android.gms:play-services-auth:19.2.0] /Users/macossierra/.gradle/caches/transforms-3/b2fb835fc90c84ca7a1c02b9cf5f8bb3/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+278
+279        <activity
+279-->[com.google.android.gms:play-services-base:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/58c83f25b73618e41f5ed6bcf857e879/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+280            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+280-->[com.google.android.gms:play-services-base:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/58c83f25b73618e41f5ed6bcf857e879/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+281            android:exported="false"
+281-->[com.google.android.gms:play-services-base:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/58c83f25b73618e41f5ed6bcf857e879/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+282-->[com.google.android.gms:play-services-base:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/58c83f25b73618e41f5ed6bcf857e879/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+283
+284        <provider
+284-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+285            android:name="com.google.firebase.provider.FirebaseInitProvider"
+285-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+286            android:authorities="com.firebase.firebaseinitprovider"
+286-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+287            android:directBootAware="true"
+287-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+288            android:exported="false"
+288-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+289            android:initOrder="100" />
+289-->[com.google.firebase:firebase-common:20.0.0] /Users/macossierra/.gradle/caches/transforms-3/839fd367fb39195efd5e9e432918637d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+290
+291        <receiver
+291-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+292            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+292-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+294            android:exported="false" >
+294-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+295        </receiver>
+296
+297        <service
+297-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+298            android:name="com.google.android.gms.measurement.AppMeasurementService"
+298-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+299            android:enabled="true"
+299-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+300            android:exported="false" />
+300-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+301        <service
+301-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+302            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+302-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+304            android:exported="false"
+304-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+305            android:permission="android.permission.BIND_JOB_SERVICE" />
+305-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/macossierra/.gradle/caches/transforms-3/3a9e6bd5aa419d56a36fcb8f01d3d48d/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+306
+307        <meta-data
+307-->[com.google.android.gms:play-services-basement:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/2c35963cc3fae32a66db6061fcddae73/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+308            android:name="com.google.android.gms.version"
+308-->[com.google.android.gms:play-services-basement:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/2c35963cc3fae32a66db6061fcddae73/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+309            android:value="@integer/google_play_services_version" />
+309-->[com.google.android.gms:play-services-basement:17.5.0] /Users/macossierra/.gradle/caches/transforms-3/2c35963cc3fae32a66db6061fcddae73/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+310    </application>
+311
+312</manifest>
